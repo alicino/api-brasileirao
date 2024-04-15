@@ -2,12 +2,16 @@
 
 ### Author
 Alicino Moura
+
 Website: (https://alicino.me)
 
 ## About
-It's a simple API to return information about Brazilian Championship between 2003 and 2023.
+It's a simple API in Python to return information about Brazilian Championship (Brasileirão) between 2003 and 2023.
+
 Source: [CBF - Confederação Brasileira de Futebol] (https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a).
+
 The data is about the Champion and Runner-up in each Championship played annually and contains the fields:
+
 - id (a sequential number)
 - Champion Soccer Team (Campeao)
 - Year (Ano) - 2003 to 2023
@@ -43,3 +47,17 @@ The data is about the Champion and Runner-up in each Championship played annuall
 
 **Note:** Search by the first name soccer name. Ex: Vasco da Gama, type "Vasco" or "Gama".
 For "Sao Paulo", you can type only "Sao" or "Paulo"
+
+###### Aditional Information
+
+The port is 5867. Change according your needs.
+
+To run this API locally, clone this repository. Then install all dependencies using pip:
+
+- flask
+- json
+- re (regex)
+
+> pip install < dependencies>
+
+###### _April 14th, 2024_
