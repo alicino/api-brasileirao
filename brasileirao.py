@@ -1,4 +1,4 @@
-
+# API by Alicino Moura - April 14th, 2024
 from flask import Flask, jsonify
 from urllib.parse import unquote
 import json
@@ -98,7 +98,7 @@ def obter_campeao(time):
 def obter_vices(time):
     # Decodifica o nome do time na rota
     time = unquote(time)
-    
+
     lista_do_vice = []
 
     # Abre o arquivo JSON e carrega os dados
