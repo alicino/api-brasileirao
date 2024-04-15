@@ -3,12 +3,12 @@
 ### Author
 Alicino Moura
 
-Website: (https://alicino.me)
+[My Website](https://alicino.me)
 
 ## About
 It's a simple API in Python to return information about Brazilian Championship (Brasileirão) between 2003 and 2023.
 
-Source: [CBF - Confederação Brasileira de Futebol] (https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a).
+Source: [CBF - Confederação Brasileira de Futebol](https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a).
 
 The data is about the Champion and Runner-up in each Championship played annually and contains the fields:
 
@@ -33,7 +33,7 @@ The data is about the Champion and Runner-up in each Championship played annuall
 #### 2. By ID
 `/brasileirao/<id>`
 
-#### 3. By Year
+#### 3. By Year (2003 to 2023)
 `/brasileirao/ano/<year>`
 
 #### 4. By the Champion
@@ -42,15 +42,19 @@ The data is about the Champion and Runner-up in each Championship played annuall
 #### 5. By the Runner-Up
 `/brasileirao/vice/<team_name>`
 
-#### 6. By Soccer team name - it returns Champion and Runner-up according the name
+#### 6. By the Soccer team name - it returns Champion and Runner-up according to the name
 `/brasileira/time/<team_name>`
 
-**Note:** Search by the first name soccer name. Ex: Vasco da Gama, type "Vasco" or "Gama".
-For "Sao Paulo", you can type only "Sao" or "Paulo"
+**Note:** 
+1. Search for the first name of the football team and without grammatical accent Ex: Vasco da Gama, type "Vasco" or "Gama". For "Sao Paulo", you can type only "Sao" or "Paulo".
 
-###### Aditional Information
+2. GET method only
 
-The port is 5867. Change according your needs.
+## Aditional Information
+
+The port is 5867. Change according to your needs.
+
+The code has several comments. I believe they are self-explanatory and helpful for beginners. So enjoy it.
 
 To run this API locally, clone this repository. Then install all dependencies using pip:
 
@@ -60,4 +64,4 @@ To run this API locally, clone this repository. Then install all dependencies us
 
 > pip install < dependencies>
 
-###### _April 14th, 2024_
+##### _April 14th, 2024_
