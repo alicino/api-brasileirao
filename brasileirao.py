@@ -151,5 +151,6 @@ def buscar_time(time):
 # -------------- Main line --------------
 if __name__ == '__main__':
     # app.run(debug=True) # Default option
-    app.run(port=5867,host='localhost',debug=True)
+    # app.run(port=5867,host='localhost',debug=True) #Execução pontual no localhost apenas
+    app.run(port=5867, host='0.0.0.0', debug=True)
 
