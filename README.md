@@ -2,11 +2,11 @@
 
 ### Author
 Alicino Moura
-
-[My Website](https://alicino.me)
+[https://alicino.me](https://alicino.me)
+Last update: _April 15th, 2024_ 
 
 ## About
-It's a simple API in Python to return information about Brazilian Championship (Brasileirão) between 2003 and 2023.
+It's a simple API in Python to return information about Brazilian Championship (aka Brasileirão) between 2003 and 2023.
 
 Source: [CBF - Confederação Brasileira de Futebol](https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a).
 
@@ -43,10 +43,10 @@ The data is about the Champion and Runner-up in each Championship played annuall
 `/brasileirao/vice/<team_name>`
 
 #### 6. By the Soccer team name - it returns Champion and Runner-up according to the name
-`/brasileira/time/<team_name>`
+`/brasileirao/time/<team_name>`
 
 **Note:** 
-1. Search for the first name of the football team and without grammatical accent Ex: Vasco da Gama, type "Vasco" or "Gama". For "Sao Paulo", you can type only "Sao" or "Paulo".
+1. Search for the first name of the football team and without grammatical accent Ex: Vasco da Gama, type "Vasco" or "Gama". For "São Paulo", you can type only "Sao" (no accent), or just "Paulo".
 
 2. GET method only
 
@@ -58,10 +58,11 @@ The code has several comments. I believe they are self-explanatory and helpful f
 
 To run this API locally, clone this repository. Then install all dependencies using pip:
 
-- flask
+- Flask
 - json
 - re (regex)
 
-> pip install < dependencies>
+> pip install Flask
 
-##### _April 14th, 2024_
+**Note:** It is not necessary to install the *json* and *re* libraries. These are already found in Python in the most recent versions.
+
