@@ -313,5 +313,20 @@
     "Rodadas": "38",
     "% Vitorias": "52.6%",
     "Dif. Vit p/ Vice": "-1"
+  },
+  {
+    "id": 22,
+    "Ano": 2024,
+    "Campeao": "Botafogo",
+    "Pontos Campeao": "79",
+    "Vitoria Campeao": "23",
+    "Empate Campeao": "10",
+    "Derrotas Campeao": "5",
+    "Vice": "Palmeiras",
+    "Pontos Vice": "73",
+    "Vitoria Vice": "22",
+    "Rodadas": "38",
+    "% Vitorias": "60.5%",
+    "Dif. Vit p/ Vice": "1"
   }
 ]

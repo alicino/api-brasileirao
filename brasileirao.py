@@ -65,7 +65,7 @@ def obter_campeao_por_ano(year):
         if item['Ano'] == year:
             return jsonify(item)
     else:
-        return jsonify({"error": f"Campeao nao encontrado com o ano {year}. Range 2003 to 2023"}), 404
+        return jsonify({"error": f"Campeao nao encontrado com o ano {year}. Range 2003 to 2024"}), 404
 
 
 # Route to find the Champion

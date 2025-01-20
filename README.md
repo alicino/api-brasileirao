@@ -4,18 +4,18 @@
 Alicino Moura
 [https://alicino.me](https://alicino.me)
 
-Last update: _April 15th, 2024_ 
+Last update: _January 19th, 2025_ 
 
 ## About
-It's a simple API in Python to return information about Brazilian Championship (aka Brasileirão) between 2003 and 2023.
+It's a simple API in Python to return information about Brazilian Championship (aka Brasileirão) between 2003 and 2024.
 
-Source: [CBF - Confederação Brasileira de Futebol](https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a).
+Source: [CBF - Confederação Brasileira de Futebol](https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2024).
 
 The data is about the Champion and Runner-up in each Championship played annually and contains the fields:
 
 - id (a sequential number)
 - Champion Soccer Team (Campeao)
-- Year (Ano) - 2003 to 2023
+- Year (Ano) - 2003 to 2024
 - Champion points - total (Pontos Campeao)
 - Champion's victories - total (Vitoria Campeao)
 - Champion draws - total (Empate Campeao)
@@ -34,7 +34,7 @@ The data is about the Champion and Runner-up in each Championship played annuall
 #### 2. By ID
 `/brasileirao/<id>`
 
-#### 3. By Year (2003 to 2023)
+#### 3. By Year (2003 to 2024)
 `/brasileirao/ano/<year>`
 
 #### 4. By the Champion
